@@ -1,0 +1,18 @@
+==========PACOTES==========
+    TYPESCRIPT
+        yarn add typescript @types/react @types/node -D
+    SASS
+        yarn add sass
+    REACT ICONS
+        yarn add react-icons
+    STRIPE_API_KEY  
+        yarn add stripe
+    NEXT AUTH
+        yarn add next-auth
+==========PACOTES==========
+
+
+Formas de fazer chamadas a API no Next
+    Client-Side: Quando os dados são carregados por uma ação do usuário e quando não necessariamente a informação tem q ser indexada pelos motores de busca.
+    Server Side Rendering (SSR): Quando precisa de dados dinâmicos e que a página seja indexada pelos motores de busca. Mesmo com javascript desabilitado o conteúdo é exibido.
+    Static Site generation (SSG): Gera um HTML estático que é compartilhado com todas as pessoas que estão acessando o site. Muito útil para páginas que precisam ser indexadas pelos motores de busca.
